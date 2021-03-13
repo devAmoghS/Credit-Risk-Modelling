@@ -14,6 +14,7 @@
 * In addition, the bank takes into account that even when the default occurs, it might still get back some part of the loan (e.g. due to the bankruptcy procedure). 
 * Hence, the previous figure is further multiplied by the estimation of the part of the loan which will be lost in case that a default occurs (i.e. loss given default, LGD). 
 
+
 ### Formula
 * To sum up, the expected loss is calculated as follows:
 `EL = PD × LGD × EAD OR EL = PD × (1 − RR) × EAD`,
@@ -27,8 +28,11 @@ where :
 
 `RR = recovery rate (RR = 1 − LGD).`
 
+![image](https://user-images.githubusercontent.com/16324607/111039055-0c17c080-8452-11eb-83fe-857111374800.png)
+
+
 * Expected loss is covered by revenues (interest rate, fees) and by loan loss provisions (based on the level of expected impairment).
 * The expected loss corresponds to the mean value of the credit loss distribution.
 * Hence, it is only an average value which can be easily exceeded. 
-* Therefore, we definethe unexpected loss as difference between a high quantile (i.e. 99 %) and the expected loss. 
+* Therefore, we define the unexpected loss as difference between a high quantile (i.e. 99 %) and the expected loss. 
 * Banks should hold enough capital in order to fully cover the unexpected loss.
